@@ -1,0 +1,13 @@
+name: WhatEnchant
+version: '1'
+main: whatenchant.whatenchant.WhatEnchant
+api-version: 1.19
+authors: [ SakakiAruka ]
+description: display enchantment
+commands:
+  enchantcheck:
+    permission: whatenchant.default
+
+permissions:
+  whatenchant.default:
+    default: true
